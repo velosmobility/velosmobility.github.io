@@ -36608,7 +36608,7 @@ var $async$om=P.a0(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 j=t.R
 s=7
-return P.aa(G.alH("http://api.ktel.io/v1/coverage/default/stop_areas",P.a7(["Content-Type","text/plain"],j,j)),$async$om)
+return P.aa(G.alH("http://api.ktel.io/v1/coverage/default/stop_areas",P.a7(["Accept","*/*"],j,j)),$async$om)
 case 7:l=b
 if(l.b===200){k=B.am6(l)
 j=Q.aul(k)
