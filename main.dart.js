@@ -36610,12 +36610,13 @@ j=t.R
 s=7
 return P.aa(G.alH("http://api.ktel.io/v1/coverage/default/stop_areas",P.a7(["content-type","text/plain"],j,j)),$async$om)
 case 7:l=b
-if(l.b===200){k=B.am6(l)
+k=B.am6(l)
 j=Q.aul(k)
 m.a=j
 q=j.f
 s=1
-break}p=2
+break
+p=2
 s=6
 break
 case 4:p=3
