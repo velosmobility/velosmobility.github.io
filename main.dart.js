@@ -36608,7 +36608,7 @@ var $async$om=P.a0(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 j=t.R
 s=7
-return P.aa(G.alH("http://api.ktel.io/v1/coverage/default/stop_areas",P.a7(["Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9","Accept-Encoding","gzip, deflate","Accept-Language","en-GB,en;q=0.9,en-US;q=0.8,el;q=0.7,nl;q=0.6"],j,j)),$async$om)
+return P.aa(G.alH("http://api.ktel.io/v1/coverage/default/stop_areas",P.a7(["Content-Type","application/json"],j,j)),$async$om)
 case 7:l=b
 if(l.b===200){k=B.am6(l)
 j=Q.aul(k)
